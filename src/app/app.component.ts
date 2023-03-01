@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
   private createPanorama() {
     const textureLoader = new THREE.TextureLoader();
     textureLoader.load(
-      'assets/image/image.jpg',
+      'assets/image/IMG_20230205_212602_00_merged.jpg',
       (texture) => {
         texture.mapping = THREE.UVMapping;
         const geometry = new THREE.SphereGeometry(500, 60, 40);
