@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "watch": "ng build --watch --configuration development --base-href /ceccoff-examples-threejs-360-viewer-angular/",
     "test": "ng test"
   },
   "private": true,
