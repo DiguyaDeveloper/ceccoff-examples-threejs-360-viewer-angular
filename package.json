@@ -1,11 +1,11 @@
 {
-  "name": "ceccoff-60-viewer",
+  "name": "ceccoff-examples-threejs-360-viewer-angular",
   "type": "module",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "deploy": "ng build --configuration production --base-href='./ceccoff-examples-threejs-360-viewer-angular' && angular-cli-ghpages --dir=dist/ceccoff-examples-threejs-360-viewer-angular",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
