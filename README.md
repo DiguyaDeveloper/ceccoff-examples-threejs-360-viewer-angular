@@ -1,7 +1,7 @@
 <p align="center">
   Exemplo do uso de threeJS junto com Angular
 </p>
-![Alt text](image.png)
+
 <p align="center">
   <img alt="Print screen da sidebar" src=".github/preview.png" width="100%">
 </p>
@@ -31,3 +31,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 5. Then: `npm install`
 6. And: `ng serve`
 7. Navigate to: [http://localhost:4200/](http://localhost:4200/)
+
+ng build --configuration production --base-href="./ceccoff-examples-threejs-360-viewer-angular"
+angular-cli-ghpages --dir=dist/ceccoff-examples-threejs-360-viewer-angular
